@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "cebc93be-882a-4630-a8a2-c006ab6133d5",
+		"name": "testapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idCard\": 1449900344744,\r\n    \"Name\": \"นายทดสอบ ทดสอบนามสกุล\",\r\n    \"dateOfBirth\": \"11/02/1994\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/saveProfile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"saveProfile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
